@@ -108,4 +108,5 @@ Running Via Docker
 
 ```
 docker run -ti --rm -e GITHUB_WATCHER_TOKEN=your_access_token duolabs/secret-bridge poll
+sudo docker run -ti -v $(pwd)/config.toml:/usr/src/app/config.toml duolabs/secret-bridge poll
 ```
